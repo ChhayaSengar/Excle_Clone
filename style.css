@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding:0;
+
+}
+
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+
+#container{
+    box-sizing: border-box;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 14px; 
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    
+}
+.nav1{
+    padding-top:10px;
+    padding-bottom: 5px;
+    display: flex;
+    padding-left: 1rem;
+    background-color: #218c74;
+} 
+
+.menu{
+    display: flex;
+    gap:1rem;
+
+}
+.menu li{
+    list-style-type: none;
+}
+.menu li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #f1f2f6;;
+}
+/* a:hover{
+    display: block;
+    background-color:  #ecf0f1 ;
+} */
+.nav2{
+    /* border:1px solid salmon; */
+    padding-top: 5px;
+    padding-left: 1rem;
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+   height: 2rem;
+   background-color:  #ecf0f1;
+}
+
+#font-family{
+   border: 0px;
+} 
+
+#font-size{
+    border: 0px;
+}
+
+
+.formula {
+    /* border: 2px solid #0e971a; */
+    height: 2rem;
+    background-color: #ecf0f1;
+    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.address-bar{  
+width: 50px;
+margin-right: 10px;
+/* border: 1px solid black; */
+background-color: white;
+height: 1.2rem;
+color: black;
+text-align: center;
+}
+
+.formula-bar  {
+
+    width: 92%;
+    margin-left: 10px;
+    border: 0px;
+    height: 1.2rem;
+}
+#left-align  {
+    border: 0px;
+}
+#left-align:hover {
+   background-color: #fff;
+}
+
+#center-align{
+    border: 0;
+}
+#center-align:hover{
+background-color: #fff;
+}
+
+#right-align{
+    border: 0;
+}
+#right-align:hover{
+  background-color: #fff;
+}
+#bold-btn{
+    border: 0; 
+}
+#bold-btn:hover{
+    background-color: #fff; 
+}
+#italics-btn{
+    border: 0;
+}
+#italics-btn:hover{
+    background-color: #fff;
+}
+#underline-btn{
+    border: 0;
+}
+#underline-btn:hover{
+    background-color: #fff;
+}
+#copy-btn{
+    border: 0;
+}
+#copy-btn:hover{
+    background-color: #fff;
+}
+#cut-btn{
+    border: 0;
+}
+#cut-btn:hover{
+    background-color: #fff;
+}
+#paste-btn{
+    border: 0;
+}
+#paste-btn:hover{
+    background-color: #fff;
+}
+
+#jsonFile{
+    display: none;
+  }
+
+.down-upload label, .color label{
+    cursor: pointer;
+  }
+ 
+  span:hover{
+    cursor: pointer;
+ }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  th, td {
+    width: 10rem;
+    border: 1px solid #dfe4ea;
+    outline: none;
+  }
+  
+  td:focus {
+    outline: none;
+  }
+  td:focus {
+    cursor:cell;
+  }
+  .mainBody{
+    background-color: #ecf0f1;;
+  }
+
+ 
+
+.color-prop {
+    position: relative;
+}
+
+.color-prop > input {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
