@@ -12,6 +12,6 @@ Build a Excel Clone with features :-
 
 Technologies Using:
 
-> HTML
-> CSS
-> Javascript
+ HTML
+ CSS
+ Javascript
